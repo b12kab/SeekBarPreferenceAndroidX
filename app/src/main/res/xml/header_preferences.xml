@@ -1,0 +1,27 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SeekBarPreference
+        app:key="pref_seekbar_key"
+        app:title="@string/seek_title"
+        app:summary="@string/seek_summary"
+        app:defaultValue="3"
+        android:max="10"
+        app:min="1"
+        app:icon="@drawable/ic_visibility_black"
+        app:showSeekBarValue="true" />
+
+    <Preference
+        app:fragment="com.example.exampleapplication.ActivitySettings$WebsiteFragment"
+        app:key="messages_header"
+        app:icon="@drawable/ic_web_black"
+        app:title="@string/website_header" />
+
+    <Preference
+        app:fragment="com.example.exampleapplication.ActivitySettings$SyncFragment"
+        app:key="sync_header"
+        app:icon="@drawable/sync"
+        app:title="@string/sync_header" />
+
+</PreferenceScreen>

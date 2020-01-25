@@ -1,0 +1,25 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        app:key="google_key"
+        app:title="@string/google_title"
+        app:summary="@string/google_summary"
+        app:icon="@drawable/ic_web_black">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/google_link" />
+    </Preference>
+
+    <Preference
+        app:key="ddg_key"
+        app:title="@string/ddg_title"
+        app:summary="@string/ddg_summary"
+        app:icon="@drawable/ic_web_black">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/ddg_link" />
+    </Preference>
+
+</PreferenceScreen>

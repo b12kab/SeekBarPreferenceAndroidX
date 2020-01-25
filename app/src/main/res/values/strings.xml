@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Example Application</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="website_header">Websites</string>
+    <string name="sync_header">Sync</string>
+
+    <!--website titles> -->
+    <string name="google_title">Google</string>
+    <string name="google_summary">Google search</string>
+    <string name="google_link" translatable="false">https://google.com</string>
+
+    <string name="ddg_title">DuckDuckGo</string>
+    <string name="ddg_summary">DuckDuckGo search</string>
+    <string name="ddg_link" translatable="false">https://duckduckgo.com/</string>
+
+    <!-- Header Preferences -->
+    <string name="seek_title">Seek bar title</string>
+    <string name="seek_summary">Everyone loves a seekbar, but it is a pain to set up</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
